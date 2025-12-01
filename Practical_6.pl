@@ -2,8 +2,7 @@
 %factorial of a number N.
 
 % Base case: factorial of 0 is 1
-factorial(0, 1) :-
-    !.
+factorial(0, 1).
 
 % Recursive case: N > 0
 factorial(N, F) :-
